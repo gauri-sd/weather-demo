@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Parth Gupta",
+  "author": "Gauri Durugkar",
   "license": "MIT",
   "dependencies": {
     "@hapi/hapi": "^19.0.0",
