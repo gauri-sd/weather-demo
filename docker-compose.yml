@@ -1,0 +1,17 @@
+version: "2"
+services:
+    web:
+        container_name: demo_node
+        build: .
+        restart: always
+        environment: 
+            - NODE_ENV=development
+        ports:
+            - "9000:54500"
+        links: 
+            - mongo
+    mongo:
+        container_name: demo_mongo
+        image: mongo
+        ports:
+            - "27017:27017"
