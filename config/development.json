@@ -13,12 +13,12 @@
 		"mongo": {
 			"type": "mongo",
 			"name": "Task3",
-			"host": "0.0.0.0",
+			"host": "localhost",
 			"port": 27017,
 			"username": "",
 			"password": "",
 			"options": {
-				"host": "0.0.0.0",
+				"host": "localhost",
 				"port": 27017,
 				"dialect": "mongo",
 				"underscored": true,
